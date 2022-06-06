@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:background="@color/white"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:gravity="center">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/solutionmoveval"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/comfortaa_light"
+                android:padding="15dp"
+                android:text="@string/n0"
+                android:textColor="@color/darkgrey"
+                android:textSize="40sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/solutiongrid"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="100dp"
+            android:padding="20dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/sb1"
+                    style="@style/button"/>
+
+                <Button
+                    android:id="@+id/sb2"
+                    style="@style/button" />
+                <Button
+                    android:id="@+id/sb3"
+                    style="@style/button"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/sb4"
+                    style="@style/button"/>
+                <Button
+                    android:id="@+id/sb5"
+                    style="@style/button"/>
+                <Button
+                    android:id="@+id/sb6"
+                    style="@style/button"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/white"
+                android:layout_weight="1">
+                <Button
+                    android:id="@+id/sb7"
+                    style="@style/button"/>
+                <Button
+                    android:id="@+id/sb8"
+                    style="@style/button"/>
+                <Button
+                    android:id="@+id/sb9"
+                    style="@style/button"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!--        <RelativeLayout-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content">-->
+
+        <!--            <Button-->
+        <!--                android:id="@+id/backgame"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content" />-->
+
+        <!--            <Button-->
+        <!--                android:id="@+id/restart"-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                />-->
+        <!--        </RelativeLayout>-->
+
+    </LinearLayout>
+
+</ScrollView>

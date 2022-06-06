@@ -1,0 +1,47 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.lbcc.a9_box_puzzle"
+        minSdkVersion 21
+        targetSdkVersion 29
+        versionCode 4
+        versionName "4.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+//    signingConfigs {
+//	   release {
+//	       storeFile file(RELEASE_STORE_FILE)
+//	       storePassword RELEASE_STORE_PASSWORD
+//	       keyAlias RELEASE_KEY_ALIAS
+//	       keyPassword RELEASE_KEY_PASSWORD
+//
+//	       // Optional, specify signing versions used
+//	       v1SigningEnabled true
+//	       v2SigningEnabled true
+//	   }
+//	}
+    buildTypes {
+        release {
+//        	signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-performanceActivity.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.0.2'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.0'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.1.1'
+}

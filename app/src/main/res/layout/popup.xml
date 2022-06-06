@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:id="@+id/popupmenu"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp"
+    android:background="@drawable/whitecard"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@color/white">
+
+
+        <TextView
+            android:id="@+id/popupmaintext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textSize="50sp"
+            android:text="@string/youwin"
+            android:fontFamily="@font/luckiest_guy"
+            android:textColor="@color/lipstickred"/>
+        <LinearLayout
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content">
+            <TextView
+            android:id="@+id/popupmovestext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/youwinsent"
+            android:layout_marginEnd="4dp"
+            android:fontFamily="@font/literate"
+            android:textColor="@color/darkgrey"/>
+
+        <TextView
+            android:id="@+id/popupmoves"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/moves"
+            android:fontFamily="@font/literate"
+            android:textColor="@color/darkgrey"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/popuptimetext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Time taken"
+            android:layout_marginEnd="4dp"
+            android:fontFamily="@font/literate"
+            android:textColor="@color/darkgrey"/>
+
+        <Chronometer
+            android:id="@+id/popuptime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/literate"
+            android:textColor="@color/darkgrey"/>
+
+    </LinearLayout>
+
+
+        <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        >
+            <Button
+                android:layout_margin="15dp"
+                android:id="@+id/popupresume"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:background="@drawable/redplay"/>
+            <Button
+                android:id="@+id/popupnewgame"
+                android:layout_width="95sp"
+                android:layout_height="95dp"
+                android:background="@drawable/redback"
+                android:layout_margin="15dp"/>
+            <Button
+                android:id="@+id/popupsolution"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/redidea"/>
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>
