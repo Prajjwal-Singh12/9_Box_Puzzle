@@ -12,10 +12,8 @@ And the best part!
 We have added a solution window, which beautifully shows step-by-step moves needed to solve the puzzle,  
 using an AI-based algorithm!  
 Have fun!  
-  
-## Install
-https://play.google.com/store/apps/details?id=com.lbcc.a9_box_puzzle
-<br><br>
+
+<br>
 ## Screenshots
 <p float="center">
     <img src="https://play-lh.googleusercontent.com/W3nKoUAknFsYdOHRG-pK_UvjOJoXo2F7LQlLZW1girkXKxWyqRTrU_DPpiQ99FSkbLY=w1536-h734-rw" width="150">
@@ -30,5 +28,4 @@ https://play.google.com/store/apps/details?id=com.lbcc.a9_box_puzzle
 - [Class Diagram](UML/Class%20Diagram.pdf)
 - [CRC Diagram](UML/CRC.pdf)
 <br><br><br>
-###### With regards,<br>LBCC.
-<img src="app/src/main/res/drawable/lbcc.jpeg" width="90">
+###### With regards,<br>Prajjwal Singh.
