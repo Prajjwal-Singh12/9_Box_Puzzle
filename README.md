@@ -12,7 +12,6 @@ And the best part!
 We have added a solution window, which beautifully shows step-by-step moves needed to solve the puzzle,  
 using an AI-based algorithm!  
 Have fun!  
-
 <br><br>
 ## Screenshots
 <p float="center">
