@@ -13,7 +13,7 @@ We have added a solution window, which beautifully shows step-by-step moves need
 using an AI-based algorithm!  
 Have fun!  
 
-<br>
+<br><br>
 ## Screenshots
 <p float="center">
     <img src="https://play-lh.googleusercontent.com/W3nKoUAknFsYdOHRG-pK_UvjOJoXo2F7LQlLZW1girkXKxWyqRTrU_DPpiQ99FSkbLY=w1536-h734-rw" width="150">
